@@ -7,8 +7,8 @@
     <link href="/dist/output.css" rel="stylesheet" />
     <title>Shopify</title>
   </head>
-  <body class="w-screen overflow-x-hidden">
-    <div class="flex flex-row justify-around bg-orange-50">
+  <body class="w-screen overflow-x-hidden ">
+    <div class="flex flex-row justify-around bg-orange-50 w-screen">
       <div class="flex flex-row items-center">
         <div class=" ">
           <a class="" href="">
@@ -19,7 +19,7 @@
           </a>
         </div>
 
-        <div class="flex items-center">
+        <div class=" hidden items-center md:flex  ">
           <ul class="flex justify-evenly flex-row">
             <li class="ml-8">
               <div class="">
@@ -59,7 +59,7 @@
         </div>
       </div>
 
-      <div class="flex flex-row items-center">
+      <div class="hidden flex-row items-center lg:flex">
         <ul class="flex justify-evenly flex-row">
           <li class="ml-8">
             <div>
@@ -98,33 +98,29 @@
     <!-- First-section -->
 
     <div
-      class="w-fit overflow-x-hidden flex flex-row justify-center bg-white lg:justify-around"
+      class="w-screen overflow-x-hidden flex flex-row justify-center bg-white lg:justify-around"
     >
-      <div class="flex flex-col justify-around m-20 h-max">
-        <h1 class="text-6xl font-extrabold font-Roboto mt-10 text-green-900">
-          The easiest way to sell
+      <div class="flex flex-col justify-center items-center m-20 h-max  border lg:justify-around  lg:items-start ">
+        <h1 class="text-2xl font-extrabold font-Roboto mt-10 text-center text-green-900 lg:text-6xl lg:text-left ">
+          The easiest way to sell <br> Online in india
         </h1>
-        <h1
-          class="text-6xl font-extrabold font-Roboto mt-10 text text-green-900"
-        >
-          Online in india
-        </h1>
-        <h2 class="text-xl font-Roboto mt-10 w-2/3">
+        
+        <h2 class="text-sm text-center  font-Roboto mt-2 w-2/3 md:text-2xl md:text-justify lg:mt-10">
           Try one of the most powerful platforms on the market for free. No
           technical knowledge needed.
         </h2>
 
-        <div class="flex flex-row items-center mt-10">
+        <div class="flex flex-col  items-center mt-10 lg:flex-row   ">
           <input
-            class="border-2 border-black rounded-lg w-96 h-16 text-center text-gray-500"
+            class="border-2 border-black rounded-lg w-64 h-16 text-center text-gray-500 lg:w-96"
             type="email"
             placeholder="Enter your email here"
           />
 
           <button
-            class="flex border-2 border-black bg-[#004c3f] w-max p-4 rounded-lg ml-10 hover:bg-lime-600 border-2-black"
+            class="flex border-2 group border-black bg-[#004c3f] w-fit p-2 mt-2 rounded-lg ml-10 hover:bg-lime-600 lg:p-4 lg-mt-0"
           >
-            <span class="text-2xl text-white ml-1 group-hover:text-black"
+            <span class="text-sm text-white ml-1 group-hover:text-black lg:text-2xl "
               >Try For Free</span
             >
           </button>
@@ -149,16 +145,16 @@
           </h1>
         </div>
         <div class="mt-8">
-          <h1 class="text-lg text-white font-extralight">
+          <h1 class="text-xl text-white font-extralight">
             Create an ecommerce website backed by powerful tools that help you
             find customers, drive sales, and manage your day-to-day.
           </h1>
-          <h1 class="text-lg text-white font-extralight">
+          <h1 class="text-xl text-white font-extralight">
             Explore more examples
           </h1>
         </div>
 
-        <div class="flex flex-row justify-between mt-20">
+        <div class="flex flex-col justify-between mt-20 items-center lg:flex-row ">
           <div class="w-60">
             <img
               src="https://cdn.shopify.com/shopifycloud/brochure/assets/merchants/blue-tokai/home-example-small-4144844351e226a9896cffee4bebdaeecb17897116c33a753bfd086b8b621e74.jpg"
@@ -215,8 +211,8 @@
             Take the best path forward
           </h1>
 
-          <div class="flex flex-row justify-evenly mt-20">
-            <div class="w-96">
+          <div class="flex flex-col justify-between mt-20  lg:flex-row  lg:justify-between  ">
+            <div class="w-96 mt-10">
               <h3 class="text-xl text-white font-bold">
                 Start an online business
               </h3>
@@ -226,7 +222,7 @@
               </p>
             </div>
 
-            <div class="w-96">
+            <div class="w-96  mt-10">
               <h3 class="text-xl text-white font-bold">
                 Move your business online
               </h3>
@@ -236,7 +232,7 @@
               </p>
             </div>
 
-            <div class="w-96">
+            <div class="w-96  mt-10">
               <h3 class="text-xl text-white font-bold">Switch to Shopify</h3>
               <p class="text-xl w-80 mt-6 text-white text-justify">
                 Bring your business to Shopify, no matter which ecommerce
@@ -244,7 +240,7 @@
               </p>
             </div>
 
-            <div class="w-96">
+            <div class="w-96  mt-10">
               <h3 class="text-xl text-white font-bold">
                 Hire a Shopify expert
               </h3>
@@ -269,7 +265,7 @@
         </h3>
       </div>
 
-      <div class="flex flex-row justify-center mt-36">
+      <div class="flex flex-col justify-center items-center mt-36 lg:flex-row">
         <div class="w-2/5">
           <video
             width="700"
@@ -299,9 +295,9 @@
           </video>
         </div>
 
-        <div class="flex flex-col w-2/5 justify-center">
+        <div class="flex flex-col  justify-center w-fit lg:w-2/5 items-center lg:items-start">
           <h1 class="text-4xl pb-4">Sell everywhere</h1>
-          <p class="text-xl text-gray-600 w-4/5 text-left pt-4">
+          <p class="text-xl text-gray-600 w-4/5 text-center pt-4 lg:text-justify">
             Use one platform to sell products to anyone, anywhere—in person with
             Point of Sale and online through your website, social media, and
             online marketplaces.
@@ -317,7 +313,7 @@
     <!-- Fourth-section -->
 
     <div class="bg-white">
-      <div class="flex flex-row-reverse justify-center mt-24">
+      <div class="flex flex-col justify-center items-center mt-24 lg:flex-row-reverse">
         <div class="w-2/5">
           <img
             src="https://cdn.shopify.com/shopifycloud/brochure/assets/home/market-small-084eab2d72b510555838c446501d27dd7380585450efcaaa97453289b2b69c79.jpg"
@@ -325,14 +321,14 @@
           />
         </div>
 
-        <div class="flex flex-col w-2/5 justify-center">
+        <div class="flex flex-col w-fit justify-center items-center lg:items-start lg:w-2/5">
           <h1 class="text-4xl pb-4">Market your business</h1>
-          <p class="text-xl text-gray-600 w-4/5 text-left pt-4">
+          <p class="text-xl text-gray-600 w-4/5  pt-4 text-center lg:text-left">
             Take the guesswork out of marketing with built-in tools that help
             you create, execute, and analyze digital marketing campaigns.
           </p>
 
-          <button class="pt-4 w-fit text-xl text-green-900">
+          <button class="pt-4 w-fit text-xl text-green-900 text-left">
             <h1 class="font-semibold">Explore how to market your business</h1>
           </button>
         </div>
@@ -341,8 +337,8 @@
 
     <!-- Fifth-section -->
 
-    <div class="bg-white">
-      <div class="flex flex-row justify-center mt-36">
+    <div class="bg-white mb-10">
+      <div class="flex flex-col justify-center items-center mt-36 lg:flex-row ">
         <div class="w-2/5">
           <img
             src="https://eposnow-marketing.s3.eu-west-1.amazonaws.com/public/feature-images/Shopify-3__ScaleMaxWidthWzQ4MF0.png"
@@ -350,14 +346,14 @@
           />
         </div>
 
-        <div class="flex flex-col w-2/5 justify-center">
+        <div class="flex flex-col w-fit justify-center items-center lg:items-start lg:w-2/5">
           <h1 class="text-4xl pb-4">Manage everything</h1>
-          <p class="text-xl text-gray-600 w-4/5 text-left pt-4">
+          <p class="text-xl text-gray-600 w-4/5 text-center pt-4 lg:text-left">
             Gain the insights you need to grow—use a single dashboard to manage
             orders, shipping, and payments anywhere you go.
           </p>
 
-          <button class="pt-4 w-fit text-xl text-green-900">
+          <button class="pt-4 w-fit text-xl text-green-900 text-left">
             <h1 class="font-semibold">Explore how to manage your business</h1>
           </button>
         </div>
@@ -366,27 +362,27 @@
 
     <!--  Sixth-section -->
 
-    <div class="bg-emerald-50 flex flex-col items-center">
-      <div class="w-4/5">
+    <div class="bg-emerald-50 flex flex-col items-center border">
+      <div class="w-fit text-center lg:text-left lg:w-4/5">
         <h1 class="pt-24 pb-24 text-4xl">Explore more from Shopify in India</h1>
       </div>
 
-      <div class="w-4/5 flex flex-row mb-24">
-        <div class="bg-white flex flex-col justify-evenly pl-10 w-1/2">
-          <h3 class="font-bold text-xl">START</h3>
-          <h2 class="text-4xl font-light">
+      <div class="w-4/5 flex flex-col-reverse mb-24 lg:flex-row  items-center ">
+        <div class="bg-white flex flex-col justify-around pl-10 w-fit lg:w-1/2 ">
+          <h3 class="font-bold text-xl pt-4">START</h3>
+          <h2 class="text-4xl font-light pt-4 pb-4">
             Launch your store with the help of a Shopify Expert
           </h2>
-          <p class="text-xl pr-4 text-justify">
+          <p class="text-xl pr-4 text-justify pb-2 pt-4">
             Find hundreds of experts from India ready to help you get your store
             up and running, from choosing a theme to building a fully customized
             site.
           </p>
-          <button class="pt-4 w-fit text-xl text-green-900">
+          <button class="pt-6 w-fit text-xl text-green-900 pb-4">
             <h1 class="font-semibold">Browse Experts in India</h1>
           </button>
         </div>
-        <div class="w-1/2 h-max">
+        <div class="w-fit lg:w-1/2 ">
           <img
             src="https://cdn.shopify.com/shopifycloud/brochure/assets/home/card-collection/india-experts-small-432c16e7cd8ec09f3ae3aca42c58775001d5dc511e70608476ed7ee0e2d2e2c5.jpg"
             alt=""
@@ -398,7 +394,7 @@
     <!-- Sevength-section -->
 
     <div>
-      <div class="pl-24 pt-24 flex flex-col justify-around w-2/5">
+      <div class="pl-0 pt-24 flex flex-col justify-center text-center w-fit items-center lg:justify-around lg:text-justify  lg:w-2/5  lg:items-start lg:pl-24 ">
         <h1 class="pb-10 text-4xl">
           Empowering independent business owners everywhere
         </h1>
@@ -406,7 +402,7 @@
           Millions of businesses in 175 countries around the world have made
           over $496 billion USD in sales using Shopify.
         </h2>
-        <button class="pt-8 w-fit text-xl text-green-900">
+        <button class="pt-8 w-fit text-xl text-green-900  ">
           <h1 class="font-semibold">Learn more about Shopify</h1>
         </button>
       </div>
@@ -418,7 +414,7 @@
     <!-- Eigth-section -->
 
     <div class="flex flex-row justify-center">
-      <div class="w-4/5 flex flex-row m-0 p-0">
+      <div class="w-4/5 flex flex-col m-0 p-0 lg:flex-row">
         <div class="">
           <img
             class="w-fit h-fit m-0 p-0"
@@ -428,7 +424,7 @@
         </div>
 
         <div
-          class="w-1/2 bg-emerald-800 m-0 pl-6 pr-6 flex flex-col justify-around items-center"
+          class="w-fit bg-emerald-800 m-0 pl-6 pr-6 flex flex-col justify-around items-center lg:w-1/2  "
         >
           <h1
             class="text-2xl pt-6 leading-relaxed text-white font-bold text-center"
@@ -449,45 +445,45 @@
     </div>
 
     <!-- Ningth-section -->
-    <div class="mt-24 flex justify-center mb-24">
-      <div class="w-4/5 flex flex-row justify-around">
-        <div class="  ">
+    <div class="mt-24 flex flex-col-reverse justify-center mb-24 lg:flex-row">
+      <div class="w-fit flex flex-wrap justify-around lg:w-4/5 ">
+        <div class=" p-4 lg:p-0  ">
           <img
             src="https://cdn.shopify.com/shopifycloud/brochure/assets/logo-soup/bajaao-small-6ca0459c2a2fc6a57654d85cd1f053828d7fee97ecf7ff6dd8a1c460d0a5d344.png"
             alt=""
           />
         </div>
-        <div>
+        <div class=" p-4 lg:p-0  ">
           <img
             src="https://cdn.shopify.com/shopifycloud/brochure/assets/logo-soup/johnjacobs-small-79aa379de8a1c0d6df1c33af8c63a677871164315ccbc495423aeaead650d53a.png"
             alt=""
           />
         </div>
-        <div>
+        <div class=" p-4 lg:p-0  ">
           <img
             src="https://cdn.shopify.com/shopifycloud/brochure/assets/logo-soup/kylie-small-4e25b192755f809e9795d9f3722f3fa6b46da1fdc2a48b3ec8b6311f50f83ac7.png"
             alt=""
           />
         </div>
-        <div>
+        <div class=" p-4 lg:p-0  ">
           <img
             src="https://cdn.shopify.com/shopifycloud/brochure/assets/logo-soup/nush-small-04d75ec8d5b3e20b6e227006c23759c8b65efd482808aff0fc17140c5efb36cc.png"
             alt=""
           />
         </div>
-        <div>
+        <div class=" p-4 lg:p-0  ">
           <img
             src="https://cdn.shopify.com/shopifycloud/brochure/assets/logo-soup/yogabar-small-a41c8bbe605289256552b537eb1bbf993845442c3af43ff4f8f1ed932a7b3609.png"
             alt=""
           />
         </div>
-        <div>
+        <div class=" p-4 lg:p-0  ">
           <img
             src="https://cdn.shopify.com/shopifycloud/brochure/assets/logo-soup/starstruck-small-6d49ff528f3ef3217015f906a1ece473e2559688669d00e2b88e7be4f65ce3bf.png"
             alt=""
           />
         </div>
-        <div>
+        <div class=" p-4 lg:p-0  ">
           <img
             src="https://cdn.shopify.com/shopifycloud/brochure/assets/logo-soup/mcaffeine-small-0c55170838a60e6a490dac7732d44f988f754de89d790de26b0d8e50a01029b4.png"
             alt=""
@@ -498,19 +494,19 @@
 
     <!-- Tength-section -->
 
-    <div class="grid grid-cols-2 gap-0 m-0 p-0 w-screen">
+    <div class="grid grid-cols-1 gap-0 m-0 p-0  lg:grid-cols-2 ">
       <div class="p-0 m-0  bg-orange-50">
-        <div class="flex flex-col ml-20">
+        <div class="flex flex-col ml-0 lg:ml-20 items-center lg:items-start">
           <div class="w-max pb-24">
-            <h1 class="text-4xl w-96 pt-24">
+            <h1 class="text-4xl w-96 pt-24 text-center lg:text-left">
               Get the help you need, every step of the way
             </h1>
           </div>
 
-          <div class="flex flex-wrap">
-            <div class="w-72 mb-20">
+          <div class="flex flex-wrap items-center text-justify lg:text-left">
+            <div class="w-80 mb-10 p-4 ">
               <h1 class="text-xl font-bold pb-5">Shopify support</h1>
-              <p class="text-xl font-normal pb-5 text-gray-900 text-justify">
+              <p class="text-xl font-normal pb-5 text-gray-900 ">
                 Contact support 24/7, whether you’re troubleshooting issues or
                 looking for business advice.
               </p>
@@ -519,9 +515,9 @@
               </button>
             </div>
 
-            <div class="w-96 ml-20">
+            <div class="w-80 ml-0 mb-5 lg:ml-20 p-4 ">
               <h1 class="text-xl font-bold pb-5">Shopify App Store</h1>
-              <p class="text-xl font-normal text-gray-900 pb-5 ext-justify">
+              <p class="text-xl font-normal text-gray-900 pb-5 ">
                 Add features and functionality to your business with 6,000+ apps
                 that integrate directly with Shopify.
               </p>
@@ -530,11 +526,11 @@
               </button>
             </div>
 
-            <div class="w-96">
+            <div class="w-80 mt-5 p-4">
               <h1 class="text-xl font-bold pb-5">
                 Shopify Experts Marketplace
               </h1>
-              <p class="text-xl font-normal text-gray-900 pb-5 ext-justify">
+              <p class="text-xl font-normal text-gray-900 pb-5  ">
                 Hire a Shopify expert to help you with everything from store
                 setup to SEO.
               </p>
@@ -560,10 +556,10 @@
 
 
 
-    <div class="w-screen border  flex justify-center">
+    <div class="w-screen flex justify-center items-center">
 
        <div class="flex flex-col items-center pb-28 pt-28 ">
-          <h1 class="text-4xl pb-4">Start your business journey with Shopify</h1>
+          <h1 class="text-4xl pb-4 text-center">Start your business journey with Shopify</h1>
           <p class="text-2xl pb-4 text-center">Try Shopify for free, and explore all the tools and services you need to start,run,and grow  <br>your business.</p>
           <button class="ml-4 p-2 bg-[#004c3f] w-52 rounded-lg h-16">
             <h3 class="text-white text-2xl font-bold">start free trial</h3>
@@ -581,8 +577,8 @@
    <footer class="bg-[#004c3f]">
 
     <div class="w-4/5 mx-auto">
-    <div class="flex flex-row">
-    <a href="" class="text-xl text-white font-bold mt-5 mb-5  "> <div>About</div>
+    <div class="flex flex-col lg:flex-row items-center">
+    <a href="" class="text-xl text-white font-bold mt-5 mb-5 pl-10 lg:pl-0 "> <div>About</div>
     </a>
     <a href="" class="text-xl text-white font-bold mt-5 mb-5  pl-10"> <div>careers</div> </a>
     <a href="" class="text-xl text-white font-bold mt-5 mb-5  pl-10"><div>Press and Media</div>
@@ -600,8 +596,8 @@
 
   </div>
 
-    <div class="text-gray-300 mt-10 mb-10  flex flex-row justify-between">
-    <ul class="">
+    <div class="text-gray-300 mt-10 mb-10  flex flex-wrap justify-between lg:flex-row">
+    <ul class="mt-10">
       <li class="font-bold pb-1 text-white ">ONLINE STORE</li>
       <li class="pb-1 text-xl font-normal ">Sell online</li>
       <li class="pb-1 text-xl font-normal ">Examples</li>
@@ -609,7 +605,7 @@
       <li class="pb-1 text-xl font-normal ">Online retail</li>
     </ul>
 
-    <ul class="">
+    <ul class=" mt-10">
       <li class="font-bold pb-8 text-white    "> </li>
       <li class="pb-1 text-xl font-normal ">Ecommerce website</li>
       <li class="pb-1 text-xl font-normal ">Domain names</li>
@@ -617,7 +613,7 @@
       <li class="pb-1 text-xl font-normal ">Ecommerce hosting</li>
     </ul>
 
-    <ul class="">
+    <ul class="mt-10">
       <li class="font-bold pb-8 text-white  "> </li>
       <li class="pb-1 text-xl font-normal ">Mobile commerce</li>
       <li class="pb-1 text-xl font-normal ">Online store builder</li>
@@ -625,14 +621,14 @@
       <li class="pb-1 text-xl font-normal ">Store themes</li>
     </ul>
 
-    <ul class="">
+    <ul class="mt-10">
       <li class="font-bold pb-1 text-white ">POINT OF SALE</li>
       <li class="pb-1 text-xl font-normal ">Point Of Sale</li>
       <li class="pb-1 text-xl font-normal ">Features</li>
      
     </ul>
 
-    <ul class="">
+    <ul class="mt-10">
       <li class="font-bold pb-1 text-white ">SUPPORT</li>
       <li class="pb-1 text-xl font-normal ">24/7 support</li>
       <li class="pb-1 text-xl font-normal ">Shopify Help Center</li>
@@ -647,7 +643,7 @@
       <li class="pb-1 text-xl font-normal ">Legal</li>
     </ul>
 
-    <ul class="">
+    <ul class="mt-10">
       <li class="font-bold pb-1 text-white ">SHOPIFY</li>
       <li class="pb-1 text-xl font-normal ">Contact</li>
       <li class="pb-1 text-xl font-normal ">Partner program</li>
@@ -670,7 +666,7 @@
 
   </div>
 
-  <div class="flex flex-row justify-around items-center">
+  <div class="flex flex-col justify-around items-center lg:flex-row pb-10">
 
    <div class="">
     <svg width="304" height="80" viewBox="0 0 304 60" fill="none" class="" xmlns="http://www.w3.org/2000/svg">
@@ -689,13 +685,13 @@
       
    </div>
    
-   <div>
+   <div class="text-center">
 
     <a class="text-xl font-normal text-white pl-5" href="">Terms of Service </a>
 
     <a class="text-xl font-normal text-white pl-5" href="">Privacy Policy </a>
 
-    <a  class="text-xl font-normal text-white pl-5" href="">India</a>
+    <a  class="text-xl font-normal text-white pl-5 pr-5" href="">India</a>
    </div>
 
 
